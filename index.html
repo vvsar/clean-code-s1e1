@@ -8,7 +8,7 @@
     />
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img
         class="header__img"
@@ -24,7 +24,9 @@
     </header>
     <main class="main">
       <section>
-        <label for="new-task-name-input" class="section-title">Add Item</label>
+        <label for="new-task-name-input" class="add-task-label section-title"
+          >Add Item</label
+        >
         <div class="add-task-form">
           <input
             id="new-task-name-input"
@@ -39,7 +41,7 @@
         <ul id="incomplete-tasks">
           <li class="task-form">
             <input class="task-form__checkbox" type="checkbox" />
-            <label class="task-form__name">Pay Bills</label>
+            <label class="task-form__label">Pay Bills</label>
             <input type="text" class="task-form__name" />
             <button class="task-form__edit-button">Edit</button>
             <button class="task-form__delete-button">
@@ -52,7 +54,7 @@
           </li>
           <li class="task-form task-form_edit-mode">
             <input class="task-form__checkbox" type="checkbox" />
-            <label class="task-form__name">Go Shopping</label>
+            <label class="task-form__label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-form__name" />
             <button class="task-form__edit-button">Save</button>
             <button class="task-form__delete-button">
@@ -70,7 +72,7 @@
         <ul id="completed-tasks">
           <li class="task-form">
             <input class="task-form__checkbox" type="checkbox" checked />
-            <label class="task-form__name">See the Doctor</label>
+            <label class="task-form__label">See the Doctor</label>
             <input type="text" class="task-form__name" />
             <button class="task-form__edit-button">Edit</button>
             <button class="task-form__delete-button">
