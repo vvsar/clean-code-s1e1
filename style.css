@@ -24,7 +24,7 @@
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 16px auto 0;
 }
 .section-title {
   color: #333;
